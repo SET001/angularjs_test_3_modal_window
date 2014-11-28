@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test for Softengi</title>
+  <link href="css/vendors/bootstrap.css" rel="stylesheet">
+  <link href="css/test-modal.css" rel="stylesheet">
+</head>
+
+<body ng-app="app" ng-controller="testCtrl">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Simple modal window service for AngularJS</h1>
+        <p>
+          Example #1 - Alert box: <a class="btn btn-primary" ng-click="example1()">Open</a>
+        </p>
+        <p>
+          Example #2 - Confirm box: <a class="btn btn-primary" ng-click="example2()">Open</a>
+        </p>
+        <p>
+          Example #3 - Custom box: <a class="btn btn-primary" ng-click="example3()">Open</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendors/angular.js"></script>
+  <script src="js/vendors/jquery.js"></script>
+  <script src="js/app/services/test-modal.js"></script>
+  <script src="js/app/config.js"></script>
+  <script src="js/app/controllers/test.js"></script>
+</body>
+</html>
